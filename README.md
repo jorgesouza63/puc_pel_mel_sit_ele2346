@@ -2,7 +2,7 @@
 
 > Trabalho final da disciplina **ELE2346 – Deep Learning** · Mestrado em Engenharia Elétrica (Sistemas Inteligentes) · PUC-Rio · 2026.2
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SEU_USUARIO/waid-segmentation/blob/main/notebooks/00_setup_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jorgesouza63/puc_pel_mel_sit_ele2346/blob/main/notebooks/00_setup_colab.ipynb)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-Apache%202.0-blue)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
@@ -30,7 +30,7 @@ Supervisão fraca combinada com validação independente:
 ## Estrutura do repositório
 
 ```
-waid-segmentation/
+puc_pel_mel_sit_ele2346/
 ├── configs/          # YAML de configuração por experimento
 ├── src/
 │   ├── config.py     # poços, pastas e constantes compartilhados pelos notebooks
@@ -55,8 +55,8 @@ waid-segmentation/
 ### Execução local
 
 ```bash
-git clone https://github.com/SEU_USUARIO/waid-segmentation.git
-cd waid-segmentation
+git clone https://github.com/jorgesouza63/puc_pel_mel_sit_ele2346.git
+cd puc_pel_mel_sit_ele2346
 python -m venv .venv && source .venv/bin/activate
 # instale PyTorch conforme https://pytorch.org
 pip install -r requirements.txt
@@ -434,7 +434,7 @@ Estado em 15/11/2026. Fase 1 concluída. Itens 1 a 5 da tabela B resolvidos. A F
 | 13 | Referências | Obter e ler Lofts e Bourke (1999). Do artigo de Silva (2026), não foram vistas as figuras e as tabelas suplementares. O notebook oficial de segmentação por limiar do WAID ainda não foi lido. |
 | 14 | Unidade do caliper (CAL) | Provavelmente polegadas. Confirmar. |
 | 15 | Vídeo explicativo e página HTML interativa | O vídeo foi entregue. As ofertas de registrá-lo no README e de criar a página HTML não tiveram resposta. |
-| 16 | GitHub | O repositório ainda não foi criado. As partes do README sobre `git clone`, o selo do Colab e `SEU_USUARIO` esperam essa etapa. |
+| 16 | GitHub | Concluído: o repositório foi publicado em https://github.com/jorgesouza63/puc_pel_mel_sit_ele2346. O `git clone`, o selo do Colab e o notebook `00_setup_colab` usam esse endereço. |
 
 ### C. Ordem sugerida ao retomar
 
