@@ -4,7 +4,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jorgesouza63/puc_pel_mel_sit_ele2346/blob/main/notebooks/00_setup_colab.ipynb)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-Apache%202.0-blue)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-artigo%20finalizado-green)
 
 ## Resumo
 
