@@ -1,0 +1,55 @@
+# Dados e artefatos pesados (ficam no Google Drive, fora do Git)
+# A barra inicial limita a regra à raiz: "data/" sem barra também excluiria src/data/ (código).
+/data/*
+/checkpoints/
+/outputs/
+*.csv
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.zip
+
+# Exceções: o que precisa ficar para reproduzir o artigo
+# Anotações (80 patches) e tabelas de resultados (resumos e escores por patch)
+!/data/annotations/
+!/data/annotations/*.csv
+!/results/**/*.csv
+
+# Montagem do artigo
+# LaTeX (arquivos de compilação)
+artigo/*.aux
+artigo/*.log
+artigo/*.bbl
+artigo/*.blg
+artigo/*.out
+artigo/*.toc
+artigo/*.synctex.gz
+
+# Documentos locais (a capa da apresentação tem dados pessoais) e registros internos
+docs/*.pdf
+docs/limpeza_readme.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Segredos
+*.token
+secrets.*
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
+
+*.mp4

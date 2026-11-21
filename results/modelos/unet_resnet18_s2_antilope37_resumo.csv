@@ -1,0 +1,2 @@
+modelo,semente,poco_teste,poco_val,epocas_feitas,melhor_dice_val,dice_pseudo_teste,segundos
+unet_resnet18,2,antilope37,botorosa47,10,0.8043904304504395,0.7033413648605347,118.9

@@ -1,0 +1,2 @@
+modelo,semente,poco_teste,poco_val,epocas_feitas,melhor_dice_val,dice_pseudo_teste,segundos,iou_sint,dice_sint,iou_sint_25,dice_sint_25,iou_sint_75,dice_sint_75,iou_sint_95,dice_sint_95
+unet_resnet18,1,antilope25,antilope37,10,0.358774870634079,0.6371385455131531,105.6,0.9432731747997047,0.9703754998947319,0.9275093400670328,0.9620343210933534,0.9711382976420794,0.9851743620474848,0.9311718866900018,0.9639178165433573

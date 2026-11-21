@@ -1,0 +1,10 @@
+Segmentação de imagens acústicas de poço sem ground truth (WAID)
+Copyright 2026 Jorge Alberto Avelino de Souza
+
+Este produto inclui código do repositório WAID (PETROBRAS), licença Apache 2.0:
+  src/data/waid_concat.py (origem: README do WAID, commit f8926d0). O aviso original deve ser mantido nesse arquivo.
+
+Os dados do WAID pertencem à PETROBRAS e estão sob a licença CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/). Eles (imagens e perfis) não fazem parte deste repositório e devem ser citados conforme o repositório oficial.
+
+As anotações em data/annotations/ (autoria de Jorge Alberto Avelino de Souza, 2026) estão sob a licença CC BY 4.0 (ver data/annotations/LICENCA.md). Elas fazem parte deste repositório; as imagens e os perfis do WAID, não.

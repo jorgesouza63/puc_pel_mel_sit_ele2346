@@ -1,0 +1,2 @@
+modelo,semente,poco_teste,poco_val,epocas_feitas,melhor_dice_val,dice_pseudo_teste,segundos
+unet_resnet18,2,antilope25,antilope37,10,0.7761978507041931,0.5548458099365234,106.1

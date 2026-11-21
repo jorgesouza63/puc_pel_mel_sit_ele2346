@@ -1,0 +1,33 @@
+# Configuração base. Cada experimento herda/sobrescreve estes valores.
+seed: 42
+
+paths:
+  data_root: data/raw          # no Colab: link simbólico para o Drive
+  processed_root: data/processed
+  checkpoints: checkpoints
+  results: results
+
+data:
+  wells: [poco_1, poco_2, poco_3, poco_4, poco_5]   # ajustar após a Fase 1
+  clip_percentiles: [1, 99]    # normalização robusta por poço
+  patch_height: 256            # profundidade
+  patch_width: 360             # azimute (coluna completa, 0-360)
+  stride: 128
+  circular_padding: true       # azimute é periódico (0° = 360°)
+
+labels:
+  source: threshold            # threshold | otsu | kmeans | caliper
+  classes: [fundo, feicao, breakout]   # revisar na Fase 2
+
+model:
+  name: unet
+  encoder: resnet18
+  in_channels: 1
+  num_classes: 3
+
+train:
+  epochs: 50
+  batch_size: 16
+  lr: 1.0e-3
+  loss: dice_ce
+  validation: leave_one_well_out
